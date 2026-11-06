@@ -1,0 +1,21 @@
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Temporary and log files
+*.log
+tmp/
+temp/
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local test endpoint
+/test_connection.php
